@@ -1,0 +1,10 @@
+# Hasil kompilasi
+receipt-designer-taffware
+receipt-designer-taffware.exe
+
+# Editor dan sistem operasi
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

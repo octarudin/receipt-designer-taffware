@@ -33,6 +33,14 @@ Konfigurasi bawaan ditujukan untuk:
 
 Printer ESC/POS lain dapat digunakan setelah menyesuaikan VID/PID pada [`internal/printer/usb.go`](internal/printer/usb.go).
 
+## Hasil cetak
+
+Contoh hasil cetak desain pada printer thermal Taffware menggunakan kertas POS 58 mm:
+
+<p align="center">
+  <img src="assets/receipt-print-result-58mm.jpg" alt="Hasil cetak Taffware Receipt Designer pada kertas POS 58 mm" width="600">
+</p>
+
 ## Persyaratan
 
 - Go 1.25.4 atau lebih baru.
@@ -169,7 +177,8 @@ Logo diperkecil secara proporsional hingga maksimum 384 dot, diubah menjadi hita
 │       ├── template.go
 │       └── template_test.go
 └── assets/
-    └── receipt-designer-preview.png
+    ├── receipt-designer-preview.png
+    └── receipt-print-result-58mm.jpg
 ```
 
 Proyek komunikasi USB dasarnya tersedia di [octarudin/usb-thermal-printer](https://github.com/octarudin/usb-thermal-printer).
